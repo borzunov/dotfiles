@@ -1,0 +1,20 @@
+[user]
+	name = Alexander Borzunov
+	email = hxrussia@gmail.com
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	ls = log --pretty=format:"%C(yellow)%h\\ %C(green)%ad\\ %Creset%s%Cred%d\\ %Cblue[%an]" --decorate --date=short --graph
+	ll = log --pretty=format:"%C(yellow)%h\\ %C(green)%ad\\ %Creset%s%Cred%d\\ %Cblue[%an]" --decorate --date=short --numstat
+	type = cat-file -t
+	dump = cat-file -p
+[color]
+	ui = auto
+[core]
+	editor = vim
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
